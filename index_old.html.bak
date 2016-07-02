@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <script src="public/javascript/jquery.js"></script>
+    <script src="public/javascript/bootstrap-min.js"></script>
+    <link rel="stylesheet" href="public/css/theme-min.css">
+
+    <title>Pythagor Studios</title>
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Pythagor Studios</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                <!--Left Navbar Components-->
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Projects <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="/Apex">APEX</a></li>
+                            <li><a href="/Starfish">Starfish</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="mailto:place@holder.com">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="width: 100%">
+        <br>
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="Apex">
+                        <img src="public/images/apex-preview-1.png" style="margin:auto; width:70%;" alt="Chania" width="460" height="345">
+                    </a>
+                </div>
+
+                <div class="item">
+                    <a href="Starfish">
+                        <img src="public/images/starfish-preview-1.png" style="margin:auto; width:70%;" alt="Chania" width="460" height="345">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <hr>
+    <a name="team"></a>
+    <div class="container-fluid" align="center">
+        <div class="our-team" style="width:80%;">
+
+            <div class="page-header">
+                <h1 class="text-center">Our Team</h1>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="public/images/home-portrait-finn.png" alt="Sample image" class="img-circle" />
+                    <div class="caption">
+                        <h3>Finn Bear</h3>
+                        <p>Developer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="public/images/home-portrait-sanjit.png" alt="Sample image" class="img-circle" />
+                    <div class="caption">
+                        <h3>Sanjit Dandapanthula</h3>
+                        <p>Project Manager</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="public/images/home-portrait-jinho.png" alt="Sample image" class="img-circle" />
+                    <div class="caption">
+                        <h3>Jinho Kwak</h3>
+                        <p>Designer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="public/images/home-portrait-teo.png" alt="Sample image" class="img-circle" />
+                    <div class="caption">
+                        <h3>Teo Dage</h3>
+                        <p>Artist</p>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="public/images/home-portrait-nathan.png" alt="Sample image" class="img-circle" />
+                    <div class="caption">
+                        <h3>Nathan Yan</h3>
+                        <p>Developer & Consultant</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="public/images/home-portrait-available.png" alt="Sample image" class="img-circle" />
+                    <div class="caption">
+                        <h3>Position Available</h3>
+                        <p>Developer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="public/images/home-portrait-available.png" alt="Sample image" class="img-circle" />
+                    <div class="caption">
+                        <h3>Position Available</h3>
+                        <p>Consultant</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-3">
+                <div class="thumbnail">
+                    <img src="public/images/home-portrait-available.png" alt="Sample image" class="img-circle" />
+                    <div class="caption">
+                        <h3>Position Available</h3>
+                        <p>Designer</p>
+                    </div>
+                </div>
+            </div>
+            -->
+        </div>
+    </div>
+    <hr>
+    <footer align="center">
+        <ul>
+            <li style="display:inline;"><a href="Terms">Terms of Service</a></li>
+            <li style="display:inline;"> - </li>
+            <li style="display:inline;"><a href="mailto:place@holder.com">Contact Us</a></li>
+            <li style="display:inline;"> - </li>
+            <li style="display:inline;">Copyright © 2016 Pythagor Studios. All Rights Reserved.</li>
+        </ul>
+    </footer>
+</body>
+</html>
