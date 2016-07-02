@@ -31,10 +31,11 @@ Game.draw = function()
     }
     else
     {
-        //canvas.clearRect(0, 0, canvas.canvas.width, canvas.canvas.height);
+        /*canvas.clearRect(0, 0, canvas.canvas.width, canvas.canvas.height);
         canvas.fillStyle = colors();
-        canvas.fillRect(0, 0, canvas.canvas.width, canvas.canvas.height);
-        canvas.fillStyle = colors();
-        canvas.fillRect(randomInt(0,500), randomInt(0,500), randomInt(50, 75), randomInt(50, 75));
+        canvas.fillRect(randomInt(0,500), randomInt(0,500), randomInt(50, 75), randomInt(50, 75));*/
+        canvas.fillStyle = "#000000";
+        canvas.font = "30px Arial";
+        canvas.fillText("WORK IN PROGRESS\nCHECK BACK LATER",canvas.canvas.width/2,canvas.canvas.height/2);
     }
 }
