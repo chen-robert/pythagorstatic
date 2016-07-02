@@ -6,7 +6,6 @@ var canvas = null;
 
 function colors() {
     var hexString = randomInt(0, 255).toString(16) + randomInt(0, 255).toString(16) + randomInt(0, 255).toString(16);
-    console.log(hexString);
     return hexString;
 }
 
