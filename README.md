@@ -1,5 +1,6 @@
 # pythagorstudios.com
 
+```
 Repository Guidelines (Rules)  
 |-Commit Rules  
 | |-Commit Message Rules  
@@ -27,3 +28,4 @@ Repository Guidelines (Rules)
 | |-Do not try to damage the repository.  
 | |-Use common sense.  
 | |-Ask if you are unsure about how to use GitHub.  
+```
