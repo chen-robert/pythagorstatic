@@ -4,6 +4,10 @@
 var Game = {};
 var canvas = null;
 
+function colors() {
+    return randomInt(0, 255).toString(16) + randomInt(0, 255).toString(16) + randomInt(0, 255).toString(16);
+}
+
 Game.initialize = function()
 {
     var canvasObject = document.getElementById("game");
@@ -27,7 +31,7 @@ Game.draw = function()
     else
     {
         canvas.clearRect(0, 0, canvas.canvas.width, canvas.canvas.height);
-        canvas.fillStyle = "red";
+        canvas.fillStyle = colors();
         canvas.fillRect(randomInt(0,500), randomInt(0,500), randomInt(50, 75), randomInt(50, 75));
     }
 }
