@@ -5,7 +5,7 @@ var Game = {};
 var canvas = null;
 
 function colors() {
-    var hexString = randomInt(0, 255).toString(16) + randomInt(0, 255).toString(16) + randomInt(0, 255).toString(16);
+    var hexString = "#" + randomInt(0, 255).toString(16) + randomInt(0, 255).toString(16) + randomInt(0, 255).toString(16);
     return hexString;
 }
 
