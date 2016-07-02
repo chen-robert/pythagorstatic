@@ -1,5 +1,6 @@
 # pythagorstudios.com
 
+#Click Raw
 Repository Guidelines (Rules)
 |-Commit Rules
 | |-Commit Message Rules
