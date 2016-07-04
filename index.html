@@ -14,6 +14,11 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="public/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="public/css/ie8.css" /><![endif]-->
         <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/>
+		<script type="text/javascript">
+			function changePhoto(){
+				document.getElementById("sanjit").src="public/images/home-portrait-sanjit.jpg";
+			}
+		</script>
 	</head>
 	<body>
 
@@ -114,7 +119,7 @@
 											<p>Artist</p>
 										</article>
 										<article>
-											<a style="display:inline; float:left; width:30%;" href="#team" class="image"><img src="public/images/home-portrait-sanjit.png" alt="" /></a>
+											<a style="display:inline; float:left; width:30%;" href="#team" class="image"><img src="public/images/home-portrait-sanjit.png" alt="" onclick="changePhoto()" id="sanjit"/></a>
 											<h3 class="major">Sanjit Dandapanthula</h3>
 											<p>Team Leader</p>
 										</article>
