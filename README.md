@@ -10,7 +10,8 @@ Repository Guidelines (Rules)
 | | |-Must be fully descriptive of all edits made (or problem in the case of an issue).  
 | | |-Must not be under 3 words or over 10 words (only for title in the case of an issue).  
 | | |-These rules loosely apply to merge explanations and issues.  
-| | |-EXCEPTION: Usage of the default commit messages are allowed.  
+| | |-EXCEPTION: Usage of the default commit messages are allowed. 
+| | |-If these rules are not met, infringing material may be deleted, removed, or changed.
 | |-Commit Frequency Rules  
 | | |-Do not commit more than twice in any five minute period.  
 | |-Commit Checklist  
