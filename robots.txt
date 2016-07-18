@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: 
+Disallow: /ApexBeta/
+
+Sitemap: https://www.pythagorstudios.com/sitemap.xml
